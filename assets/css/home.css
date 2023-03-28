@@ -1,0 +1,74 @@
+@font-face {
+    font-family: alkatra;
+    src: url(../../assets/font/Alkatra-VariableFont_wght.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "alkatra", Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    text-align: center;
+}
+
+header {
+    background: url("../img/wolke1.jpg") no-repeat center;
+    background-position: center;
+    height: 100vh;
+}
+a{
+    display: block;
+    text-align: right;
+    text-decoration:none ;
+    font-size: clamp(1.5rem, 5.0vw, 4.0rem);
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+}
+a:hover {
+    color:rgb(95, 40, 40);
+}
+h1 {
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    margin: 15vw;
+    color: rgb(109, 109, 109);
+}
+.wolke2 {
+    background: url("../img/wolke2.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.wolke3 {
+    background: url("../img/wolke3.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.wolke4 {
+    background: url("../img/wolke5.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.wolke5 {
+    background: url("../img/wolke4.jpg") no-repeat center;
+    background-position: center;
+    height: 100vh;
+    box-shadow: -1px 1px 6px -2px rgb(219, 219, 219);
+}
+.intertext {
+    font-size: clamp(1.5rem, 4.0vw, 3.0rem);
+    margin: 15vw;
+}
+h3 {
+    color: white;
+    font-size: clamp(3rem, 1.4vw, 8.0rem);
+    padding: 20vw;
+}
+h4 {
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    margin: 2vw;
+}

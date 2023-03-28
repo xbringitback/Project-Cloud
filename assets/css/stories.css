@@ -1,0 +1,103 @@
+@font-face {
+    font-family: alkatra;
+    src: url(../../assets/font/Alkatra-VariableFont_wght.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "alkatra", Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-size: clamp(1.5rem, 5.0vw, 4.0rem);
+    color: black;
+    padding: 2rem;
+}
+a:hover {
+    color:rgb(95, 40, 40);
+}
+.wolke6 {
+    background: url("../../assets/img/wolke6.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: auto 5vw;
+}
+.wolke6 p {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    padding: 12vw;
+    color: rgb(255, 255, 255);
+}
+.wolke6 p span,
+.wolke6 p::first-letter {
+    color: rgb(255, 166, 1);
+    font-size: 50px;
+}
+.wolke7 {
+    background: url("../../assets/img/wolke7.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: 5vw;
+}
+.wolke7 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    padding: 10vw 2vw;
+    color: rgb(255, 255, 255);
+}
+.wolke7 p span {
+    color:rgb(105, 105, 105);
+    font-size: clamp(1.5rem, 5.0vw, 5.0rem);
+}
+.wolke8 {
+    background: url("../../assets/img/wolke8.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: 5vw;
+}
+.wolke8 p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    padding: 12vw;
+    color: rgb(255, 255, 255);
+}
+.wolke9 {
+    background: url("../../assets/img/wolke9.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: auto 5vw;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    padding: 10vw 2vw;
+    color: rgb(255, 255, 255);
+}
+.wolke9 h2{
+    color: rgb(68, 68, 68);
+    position:absolute;
+    margin-top: -35px;
+}
+.wolke9 h3 {
+    color: rgba(255, 255, 255, 0.575);
+}
+.wolke9 p {
+    color: rgba(168, 92, 168, 0.712);
+}
+h4 {
+    text-align: center;
+    font-size: clamp(1rem, 1.4vw, 8.0rem);
+    margin: 2vw;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: alkatra;
+    src: url(../font/Alkatra-VariableFont_wght.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main {
+    background: url("../img/wolke1.jpg") no-repeat center;
+    font-family: "alkatra", Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+nav{
+    text-align: center;
+    height: 100vh;
+    padding:40vh 20vh;
+}
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 3rem
+}
+a:hover {
+    color: rgb(95, 40, 40);
+}
